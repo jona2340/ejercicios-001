@@ -1,0 +1,12 @@
+let num1;
+let num2;
+num1 = prompt('ingresa un numero: ');
+num2 = prompt('ingresa otro numero');
+a = parseInt(num1) + parseInt(num2);
+b = num1 - num2;
+c = num1 * num2;
+d = num1 % num2; 
+console.log('la suma es:'+a);
+console.log('la resta es:'+b);
+console.log('la multiplicacion es:'+c);
+console.log('la division:'+d);
